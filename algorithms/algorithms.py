@@ -82,3 +82,17 @@ def fizz_buzz(n):
         
         
 print(fizz_buzz(3))
+
+
+def missing_number(nums):
+    
+    n = len(nums) + 1
+    
+    total = n * ((n-1)/2)
+    
+    for data in nums:
+        total -= data
+    
+    return int(total)    
+    
+print(missing_number([3,0,1]))
