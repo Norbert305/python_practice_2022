@@ -1,0 +1,27 @@
+---
+title: "Introduction to Data Frames in R"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE}
+# load libraries
+library(readr) # A fast amd easy way to read the rectangular data 
+library(dplyr) # Ability to easily manipulate data frames
+
+```{r message=FALSE}
+# load data frame
+artists <- read_csv('artists.csv') # csv path stored in a data frame
+artists # this data frame containing the cvs file path returned
+```
+
+```{r}
+# inspect data frame
+artists # returns the data frame
+head(artists) # function that returns the first 6 rows of a data frame.
+head(df,8) # example, will show the first 8 rows.
+summary(artists) # The function summary() will return summary statistics 
+# such as mean, median, minimum and maximum for each numeric column 
+# while providing class and length information for non-numeric columns.
+
+
+```
