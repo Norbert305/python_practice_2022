@@ -26,4 +26,13 @@ artist_groups # data from artist_groups returned with the single column group
 group_info <- artists %>% # second pipe contained in variable group_info
   select(group,spotify_monthly_listeners,year_founded) # multiple columns selected
 group_info # data contained inside variable group_info returned with the 3 columns group,spotify_monthly_listeners,and year_founded
+
+# print column names
+
+  # colnames(df)
+
+      # or
+      
+  # names(df)
+  
 ```
