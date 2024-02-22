@@ -22,6 +22,6 @@ head(dogs)
 ```{r}
 # add average height column
 dogs <- dogs %>% # create pipe dogs
-  mutate(avg_height = (height_low_inches + height_high_inches)/2) # new column created called mutate with the values of the average height
+  mutate(avg_height = (height_low_inches + height_high_inches)/2) # new column created called avg_height with the values of the average height
 head(dogs) # return the first 6 rows
 ```

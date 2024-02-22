@@ -37,3 +37,6 @@ round_up <- ceiling(3.14) # round up
 print(round_up)
 
 print(round_down)
+
+print(sum(c(5,5,5,5))) 
+
