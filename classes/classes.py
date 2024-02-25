@@ -25,3 +25,18 @@ blue = Colors("blue")
     
 
 print(f"My favorite color is {red.color}")
+
+
+class MyCar:
+    def __init__(self, car):
+        self.car = car
+ 
+    def car_brand(self):
+        print("My dog's name is: ", self.car)
+ 
+x = MyCar('Honda')
+
+print(f"I was able to purchase a new {x.car} today from the dealership.")
+
+
+

@@ -1,4 +1,4 @@
-names = ['John', 'Kenny', 'Tom', 'Bob', 'Dilan']
+names = ['John', 'Kenny', 'Tom', 'Bob', 'Dylan']
 ## CREATE YOUR FUNCTION HERE
 
 def sort_names(names):
