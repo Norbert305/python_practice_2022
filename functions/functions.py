@@ -61,5 +61,13 @@ def factorial(num):
        return num * factorial(num-1)
    
 print(factorial(5)) # 5 * 4 * 3 * 2 * 1
+
+
+
+def concat(name,age):
+  
+  return f"My name is {name} and I am {age} years old."
+  
+print(concat("Bert",20))
         
     
