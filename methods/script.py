@@ -52,7 +52,18 @@ print(min_number) # 1
 # sort numbered list
 sort_list = [2,1,4,3,5]
 sort_list.sort()
-print(sort_list)
+print(sort_list) # [1,2,3,4,5]
+
+
+# remove from back
+delete_from_back = [1,2,3,4,5,6]
+delete_from_back.pop()
+print(delete_from_back) # [1,2,3,4,5]
+
+# removes based on index
+remove_index_one = [1,2,3,4,5]
+remove_index_one.pop(1)
+print(remove_index_one) # [1,3,4,5]
 
 
 
@@ -64,8 +75,8 @@ max(my_tuple) # returns 101
 my_tuple = ('orange', 'blue', 'red', 'green')
 max(my_tuple) # returns "red"
  
-my_tuple = ('abc', 234, 567, 'def')
-max(my_tuple) # throws an error!
+# my_tuple = ('abc', 234, 567, 'def')
+# max(my_tuple) # throws an error!
 
 
 
@@ -75,8 +86,9 @@ my_tuple = (65, 2, 88, 101, 25)
 min(my_tuple) # returns 2
 my_tuple = ('orange', 'blue', 'red', 'green')
 min(my_tuple) # returns "blue"
-my_tuple = ('abc', 234, 567, 'def')
-min(my_tuple) # throws an error!
+
+# my_tuple = ('abc', 234, 567, 'def')
+# min(my_tuple) # throws an error!
 
 
 
